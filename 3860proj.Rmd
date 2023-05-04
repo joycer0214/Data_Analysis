@@ -1,0 +1,7 @@
+```{r}
+library(dplyr)
+df<-read.csv("myopia.csv",sep=";")
+df
+sum(df$MYOPIC==1)
+sum(df$MYOPIC==0)
+```
